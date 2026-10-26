@@ -18,9 +18,13 @@ activation email from FormSubmit that must be confirmed.
 
 ## Deploying
 
-The site ships as a static single-page app in `dist/`. GitHub Pages is set up to
-build on every push to `main` (`.github/workflows/deploy.yml`). A copy of
-`index.html` is written to `404.html` so routes like `/about` still load.
+The site ships as a static single-page app in `dist/`. GitHub Pages serves the
+`gh-pages` branch. A copy of `index.html` is written to `404.html` so routes
+like `/about` still load.
+
+```bash
+npm run deploy   # build and publish to the gh-pages branch
+```
 
 Custom domain: `glowskinbyramona.com` (`public/CNAME`).
 
