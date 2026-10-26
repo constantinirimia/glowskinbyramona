@@ -11,7 +11,7 @@ export const site = {
   instagram: 'https://www.instagram.com/glowskin_by_ramona/',
   instagramHandle: '@glowskin_by_ramona',
   logo: '/logo.jpg',
-  formEndpoint: 'https://formsubmit.co/ajax/ifconstantine777@gmail.com',
+  formEndpoint: 'https://formsubmit.co/ajax/glowskinbyramona@gmail.com',
 }
 
 export const images = {
